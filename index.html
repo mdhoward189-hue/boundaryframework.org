@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Boundary Framework</title>
+  <meta name="description" content="The Boundary Framework decides how much autonomy an AI system should have by looking at where its consequences land. From the Murray G. Bacon Center for AI Ethics in Business, Iowa State University.">
+  <link rel="icon" href="assets/logo/boundary-framework-icon-light.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/logo/boundary-framework-icon-light.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Barlow:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand-link" href="index.html" aria-label="Boundary Framework home">
+        <img src="assets/logo/boundary-framework-mark-light-transparent.svg" alt="" width="64" height="39">
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#videos">Videos</a>
+        <a href="#framework">The Framework</a>
+        <a href="#resources">Resources</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- 1. Hero -->
+    <section class="hero ground-cream" aria-labelledby="hero-title">
+      <div class="wrap">
+        <img class="hero-logo" src="assets/logo/boundary-framework-logo-light-transparent.svg" alt="The Boundary Framework" width="320" height="289">
+        <div>
+          <div class="lockup">
+            <h1 class="display" id="hero-title">Autonomy to do what?</h1>
+            <hr class="rule">
+            <p class="subhead">With consequences for whom</p>
+          </div>
+          <p class="lede">The Boundary Framework decides how much autonomy an AI system should have by looking at where its consequences land: in the physical world, in law and organizations, or in a particular person's life.</p>
+          <p><strong>The same autonomy can be right in one setting and wrong in another.</strong> Governance follows the consequences, not the technology.</p>
+          <div class="actions">
+            <a class="btn btn-solid" href="#videos">Watch the videos</a>
+            <a class="btn btn-line" href="#resources">Read the specification</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Videos (kept second on the page on purpose) -->
+    <section class="ground-maroon" id="videos" aria-labelledby="videos-title">
+      <div class="wrap">
+        <div class="lockup">
+          <h2 class="headline" id="videos-title">See the framework in action</h2>
+          <hr class="rule">
+          <p class="subhead">Short videos from the Bacon Center</p>
+        </div>
+        <div class="video-grid" id="video-grid">
+          <div class="video-frame">
+            <div class="video-placeholder">
+              <img src="assets/logo/boundary-framework-mark-dark-transparent.svg" alt="" width="96" height="58">
+              <p class="headline">Video coming soon</p>
+              <p class="caption">The first Boundary Framework video will appear here.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. The three boundaries -->
+    <section class="ground-cream" id="framework" aria-labelledby="framework-title">
+      <div class="wrap">
+        <div class="intro-row">
+          <div>
+            <div class="lockup">
+              <h2 class="headline" id="framework-title">Three boundaries</h2>
+              <hr class="rule">
+              <p class="subhead">Where consequences land</p>
+            </div>
+            <p class="lede">Every action an AI system takes meets the world at a boundary. Each boundary type shows errors differently, corrects them at a different speed, and calls for a different kind of oversight.</p>
+          </div>
+          <div class="steps" aria-hidden="true"><span class="s1"></span><span class="s2"></span><span class="s3"></span></div>
+        </div>
+
+        <div class="boundaries">
+          <article class="boundary">
+            <h3>Implementation</h3>
+            <p>Consequences land in the physical world: equipment, materials and physical processes.</p>
+            <dl>
+              <dt>Governance</dt>
+              <dd>Extend established safety engineering: certification, failure-mode analysis, redundancy and containment.</dd>
+              <dt>Autonomy</dt>
+              <dd>High autonomy within an approved safety regime.</dd>
+              <dt>Examples</dt>
+              <dd>Warehouse robots, precision sprayers, predictive maintenance.</dd>
+            </dl>
+          </article>
+
+          <article class="boundary">
+            <h3>Institutional</h3>
+            <p>Consequences land in legal, contractual, regulatory, financial and organizational structures.</p>
+            <dl>
+              <dt>Governance</dt>
+              <dd>Conditional autonomy: defined parameters, accountability tracing, and human review for interpretive or high-stakes matters.</dd>
+              <dt>Autonomy</dt>
+              <dd>Bounded autonomy for routine, well-specified tasks.</dd>
+              <dt>Examples</dt>
+              <dd>Accounts payable, regulatory filings, procurement agents.</dd>
+            </dl>
+          </article>
+
+          <article class="boundary">
+            <h3>Normative</h3>
+            <p>Consequences land on a particular person: access, opportunity, liberty, livelihood, health, dignity and fair treatment.</p>
+            <dl>
+              <dt>Governance</dt>
+              <dd>Preserved human agency: the AI system may assist, and a person takes the consequential action.</dd>
+              <dt>Autonomy</dt>
+              <dd>Assistive role. A person keeps the final say.</dd>
+              <dt>Examples</dt>
+              <dd>Hiring screens, benefit decisions, claim denials.</dd>
+            </dl>
+          </article>
+        </div>
+
+        <div class="questions" aria-label="Three questions to ask about any AI action">
+          <p>Where does it land?</p>
+          <p>How fast would we find out?</p>
+          <p>What keeps it in check?</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Boundary crossing -->
+    <section class="crossing ground-maroon" aria-labelledby="crossing-title">
+      <div class="wrap">
+        <div>
+          <div class="lockup">
+            <h2 class="headline" id="crossing-title">When an agent crosses a boundary</h2>
+            <hr class="rule">
+            <p class="subhead">Goals drift. Oversight has to follow.</p>
+          </div>
+          <p>AI agents break goals into sub-actions. A goal set at one boundary can produce sub-actions at another, while the system's autonomy setting stays the same. Each step can look routine. In its consequences for a particular person, it is not.</p>
+          <div class="example">
+            <h3>A scheduling agent</h3>
+            <p>Its goal is institutional: cut staffing costs while meeting demand. Along the way it could:</p>
+            <ul>
+              <li>Assign shifts (routine)</li>
+              <li>Deny accommodation requests (normative)</li>
+              <li>Cut hours for people nearing benefits eligibility (normative)</li>
+            </ul>
+            <p class="caption">Routine scheduling can run on its own. The normative sub-actions go to a manager who decides.</p>
+          </div>
+        </div>
+        <div>
+          <p class="stat-number">62%</p>
+          <p><strong>of recorded AI incidents involved boundary crossing</strong>, in a Bacon Center analysis of 1,491 incidents in the AI Incident Database.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. How it is applied -->
+    <section class="ground-cream" aria-labelledby="cycle-title">
+      <div class="wrap">
+        <div class="lockup">
+          <h2 class="headline" id="cycle-title">Put it to work</h2>
+          <hr class="rule">
+          <p class="subhead">The governance cycle</p>
+        </div>
+        <p class="lede">Organizations apply the framework at design, at procurement and at periodic review, and repeat it over the life of a deployment.</p>
+        <ol class="cycle">
+          <li><span class="step-name">Map</span>Identify every boundary the system's actions will touch, including foreseeable sub-actions.</li>
+          <li><span class="step-name">Classify</span>Assign each action a boundary type and judge how serious its consequences could be.</li>
+          <li><span class="step-name">Calibrate</span>Match autonomy and oversight to each action's boundary type and risk class.</li>
+          <li><span class="step-name">Architect</span>Build boundary awareness in, so crossings go to a person by design.</li>
+          <li><span class="step-name">Monitor</span>Watch for new crossings as goals, tools, data and permissions change. Then map again.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 6. Resources -->
+    <section class="resources ground-cream" id="resources" aria-labelledby="resources-title">
+      <div class="wrap">
+        <div class="lockup">
+          <h2 class="headline" id="resources-title">Read and use the framework</h2>
+          <hr class="rule">
+          <p class="subhead">Free under CC BY 4.0</p>
+        </div>
+        <ul class="downloads">
+          <li>
+            <a href="downloads/Boundary_Framework_Specification_v1.0.docx" download>
+              <span class="doc-title">The specification</span>
+              <span>The full framework: terms, classification rules, governance responses, risk classes and worked examples.</span>
+              <span class="doc-meta">Version 1.0, draft for comment · Word, 34 KB</span>
+            </a>
+          </li>
+          <li>
+            <a href="downloads/Boundary_Map_v1.0.pdf" download>
+              <span class="doc-title">The Boundary Map</span>
+              <span>A one-page worksheet for applying the framework to a single AI deployment.</span>
+              <span class="doc-meta">Version 1.0 · PDF, 165 KB</span>
+            </a>
+          </li>
+          <li>
+            <a href="downloads/Boundary_Framework_Standards_Crosswalk_v1.0.docx" download>
+              <span class="doc-title">Standards crosswalk</span>
+              <span>Where boundary analysis fits in the NIST AI RMF, ISO/IEC 42001 and the EU AI Act.</span>
+              <span class="doc-meta">Version 1.0 · Word, 19 KB</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="citation">
+          <p><strong>You may share and adapt this material for any purpose</strong>, including commercial use, if you give credit, link to the license and say whether you made changes.</p>
+          <p class="caption">Suggested citation</p>
+          <blockquote>Howard, M. D., &amp; Murray G. Bacon Center for AI Ethics in Business. (2026). <em>The Boundary Framework: Specification, version 1.0</em> (Draft for comment). Iowa State University.</blockquote>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer ground-maroon">
+    <div class="wrap">
+      <img src="assets/logo/boundary-framework-logo-dark-transparent.svg" alt="The Boundary Framework" width="180" height="163">
+      <div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#videos">Videos</a>
+          <a href="#framework">The Framework</a>
+          <a href="#resources">Resources</a>
+          <a href="about.html">About</a>
+        </nav>
+        <p class="caption">&copy; 2026 Michael D. Howard and the Murray G. Bacon Center for AI Ethics in Business, Ivy College of Business, Iowa State University. The Boundary Framework is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.</p>
+        <p class="caption">Version 1.0 is a draft for comment. Send comments to [contact address to be added].</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/videos.js"></script>
+</body>
+</html>

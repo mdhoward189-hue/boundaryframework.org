@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="166 139 555 335" width="555" height="335">
+  <title>Boundary Framework mark</title>
+  <g id="mark">
+    <polygon points="266.78,454.00 309.22,454.00 352.50,159.00 310.05,159.00" fill="#F8F4EE" fill-opacity="0.535"></polygon>
+    <polygon points="438.22,454.00 395.78,454.00 352.50,159.00 394.95,159.00" fill="#F8F4EE" fill-opacity="0.718"></polygon>
+    <polygon points="526.78,454.00 569.22,454.00 525.95,159.00 483.50,159.00" fill="#F8F4EE"></polygon>
+    <rect x="186" y="299" width="457" height="13" fill="#F8F4EE"></rect>
+    <circle cx="676" cy="306" r="25" fill="#EDB84D"></circle>
+  </g>
+</svg>
