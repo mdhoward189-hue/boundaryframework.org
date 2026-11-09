@@ -435,15 +435,6 @@ strong { font-weight: 600; }
   max-width: 22ch;
 }
 
-.facts {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-6);
-}
-
-.facts ul { margin: 0; padding-left: 20px; }
-.facts li { margin-bottom: var(--space-1); }
-
 /* ---------- Footer ---------- */
 
 .site-footer { padding: var(--space-8) 0 var(--space-6); }
@@ -475,7 +466,7 @@ strong { font-weight: 600; }
 @media (max-width: 900px) {
   .boundaries, .questions, .downloads { grid-template-columns: 1fr; }
   .cycle { grid-template-columns: 1fr 1fr; }
-  .crossing .wrap, .facts { grid-template-columns: 1fr; gap: var(--space-6); }
+  .crossing .wrap { grid-template-columns: 1fr; gap: var(--space-6); }
 }
 
 @media (max-width: 720px) {
