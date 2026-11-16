@@ -257,6 +257,8 @@ strong { font-weight: 600; }
 .boundary {
   border-top: 4px solid var(--ink);
   padding-top: var(--space-3);
+  display: flex;
+  flex-direction: column;
 }
 
 .boundary h3 {
@@ -272,6 +274,68 @@ strong { font-weight: 600; }
 .boundary dl { margin: 0; }
 .boundary dt { font-weight: 600; margin-top: var(--space-2); }
 .boundary dd { margin: 0; }
+
+/* Example illustration at the foot of each boundary card */
+.example-art { margin: auto 0 0; padding-top: var(--space-3); }
+
+.example-art svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--ink);
+  background: var(--ground);
+}
+
+.example-art figcaption { font-size: 15px; line-height: 1.4; margin-top: var(--space-1); }
+
+.example-art .ink { fill: var(--ink); }
+.example-art .s1 { fill: var(--step-1); }
+.example-art .s2 { fill: var(--step-2); }
+.example-art .gr { fill: var(--ground); }
+.example-art .ink-line { stroke: var(--ink); stroke-width: 2; }
+.example-art .spray line { stroke: var(--step-2); stroke-width: 3; stroke-dasharray: 4 5; }
+.example-art .cross line { stroke: var(--ink); stroke-width: 4; }
+.example-art .check { fill: none; stroke: var(--ground); stroke-width: 3; }
+
+/* AI autonomy scale: one segment under each boundary card */
+.autonomy-scale { margin-top: var(--space-6); }
+
+.autonomy-title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.26em;
+  font-size: 18px;
+  text-align: center;
+  max-width: none;
+  margin: 0 0 var(--space-2);
+}
+
+.autonomy-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+}
+
+.autonomy-row span {
+  border: 2px solid var(--ink);
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 22px;
+  line-height: 1;
+  text-align: center;
+  padding: 16px 8px;
+}
+
+.autonomy-risk {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: var(--space-1);
+}
 
 /* ---------- Boundary crossing ---------- */
 
@@ -434,6 +498,8 @@ strong { font-weight: 600; }
 
 @media (max-width: 900px) {
   .boundaries, .downloads { grid-template-columns: 1fr; }
+  .autonomy-row { gap: var(--space-1); }
+  .autonomy-row span { font-size: 16px; padding: 12px 4px; }
   .cycle { grid-template-columns: 1fr 1fr; }
   .crossing .wrap { grid-template-columns: 1fr; gap: var(--space-6); }
 }

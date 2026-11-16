@@ -3,7 +3,7 @@
 // Example: https://www.youtube.com/watch?v=AbC123xyz  ->  { id: "AbC123xyz", title: "What is the Boundary Framework?" }
 // While the list is empty, the page shows a "Video coming soon" slot.
 const VIDEOS = [
-  // { id: "YOUTUBE_ID", title: "Video title" },
+  { id: "09K2RJ5-VfM", title: "Boundary Framework Video" },
 ];
 
 (function renderVideos() {

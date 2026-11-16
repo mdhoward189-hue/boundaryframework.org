@@ -37,10 +37,10 @@ Colors, type and logo use follow the Boundary Framework brand guide: cream `#F8F
 
 ## Before launch
 
-- [ ] Save Mike's Ivy College headshot as `assets/img/mike-howard.jpg` ([source](https://www.ivybusiness.iastate.edu/files/2026/03/MikeHoward-688x688-brighter.jpg)). The About page shows a placeholder until it's there.
+- [x] Mike's photo is in `assets/img/mike-howard.jpg`.
 - [ ] Mike approves his bio and photo.
 - [ ] Replace `[contact address to be added]` in both footers.
-- [ ] Add the first YouTube video ID.
+- [x] First YouTube video added.
 
 ## License
 
