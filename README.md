@@ -39,11 +39,11 @@ Colors, type and logo use follow the Boundary Framework brand guide: cream `#F8F
 
 - [x] Mike's photo is in `assets/img/mike-howard.jpg`.
 - [ ] Mike approves his bio and photo.
-- [ ] Replace `[contact address to be added]` in both footers.
+- [x] Comments go to aiethics@iastate.edu (in both footers).
 - [x] First YouTube video added.
 
 ## License
 
-The Boundary Framework documents and site text are © 2026 Michael D. Howard and the Murray G. Bacon Center for AI Ethics in Business, Iowa State University, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See `LICENSE`.
+The Boundary Framework documents and site text are © 2026 Michael D. Howard and the Murray G. Bacon Center for AI Ethics in Business, Iowa State University, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The Iowa State University and Bacon Center names and logos are not covered by the license. See `LICENSE`.
 
-> Howard, M. D., & Murray G. Bacon Center for AI Ethics in Business. (2026). *The Boundary Framework: Specification, version 1.0* (Draft for comment). Iowa State University.
+> Howard, M. D., & Murray G. Bacon Center for AI Ethics in Business. (2026). *The Boundary Framework: Specification, version 1.0*. Iowa State University.
